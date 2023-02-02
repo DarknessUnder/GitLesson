@@ -7,9 +7,9 @@ attendanceList.append(["Some Name", "names", "????"])
 
 
 ## DO NOT CHANGE
-printedList = open("attendanceList.txt", "w") 
+printedList = open("RightAttendanceList.txt", "w") 
 
 for i in range(len(attendanceList)):
-    printedList.write(str(i) + ". " + attendanceList[i][0] + "  RCS ID: " + attendanceList[i][1] + "  GitHub ID: " + attendanceList[i][2] + ";\n")
+    printedList.write( attendanceList[i][1] + "\n")
 
 printedList.close() 
