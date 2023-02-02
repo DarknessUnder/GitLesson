@@ -2,6 +2,7 @@ attendanceList = [["Harry Tan", "tant2", "DarknessUnder"]]
 
 ## add your info here
 attendanceList.append(["Gabriel Jacob", "jacobggit", "????"])
+attendanceList.append(["Some Name", "names", "????"])
 
 
 
