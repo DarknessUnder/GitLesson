@@ -2,13 +2,9 @@ attendanceList = [["Harry Tan", "tant2", "DarknessUnder"]]
 
 ## add your info here
 attendanceList.append(["Gabriel Jacob", "jacobggit", "????"])
+attendanceList.append(["tant2", "tant2", "????"])
 
 
 
-## DO NOT CHANGE
-printedList = open("attendanceList.txt", "w") 
-
-for i in range(len(attendanceList)):
-    printedList.write(str(i) + ". " + attendanceList[i][0] + "  RCS ID: " + attendanceList[i][1] + "  GitHub ID: " + attendanceList[i][2] + ";\n")
-
-printedList.close() 
+for i in range(0,1):
+    print(str(i) + ". " + attendanceList[i][0] + "  RCS ID: " + attendanceList[i][1] + "  GitHub ID: " + attendanceList[i][2] + ";\n")
